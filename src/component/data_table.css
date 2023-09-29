@@ -1,0 +1,53 @@
+
+
+.dataTable{
+display: flex;
+flex-direction: column;
+}
+.header{
+    padding: 0 30px;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+.header .filterContainer{
+    display: flex;
+    gap: 10px;
+    width: 30%;
+}
+.header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    color: aliceblue;
+    font-size: 36px;
+}
+
+.header input{
+    border: none;
+    padding: 10px 20px;    
+    border-radius: 4px;
+    flex-grow: 1;
+}
+.header select{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+
+table,tr,th,td{
+    margin: 20px auto;
+    border: 1px solid rgb(0, 55, 137);
+    border-collapse: collapse;
+    color: rgba(245, 245, 245, 0.726);
+}
+th,td{
+    padding: 5px 6px;
+}
+th{
+    font-size: 16px;
+}
+td{
+    font-size: 14px;
+}
+
